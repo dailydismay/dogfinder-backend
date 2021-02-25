@@ -17,7 +17,7 @@ class StatusResponse:
 
 
 @app.get('/status')
-async def status() -> StatusResponse:
+async def app_status() -> StatusResponse:
   return StatusResponse('up')
 
 
